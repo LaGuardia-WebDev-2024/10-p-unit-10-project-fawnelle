@@ -1,4 +1,4 @@
-var bakeryLabels = ["Crossiants","Baguettes"];
+var bakeryLabels = ["pancake","cupcake"];
 
 setup = function() {
 

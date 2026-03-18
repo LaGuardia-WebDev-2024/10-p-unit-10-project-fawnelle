@@ -1,6 +1,6 @@
 var starXPos = [];
 var starYPos = [];
-var star = "⭐️";
+var star = loadImage("hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEm5hfTEQvNMTwZuCREtarOgXLNpEcnu-haQ&s");
 var starTotal = 100;
 
 var planetXPos = [];
@@ -52,7 +52,7 @@ var display = function(){
   }
 
   for(var i = 0; i < starXPos.length; i ++){
-    text(star, starXPos[i], starYPos[i]);
+    image(star, starXPos[i], starYPos[i], 100, 100);
   }
 
   fill(0,0,0);
