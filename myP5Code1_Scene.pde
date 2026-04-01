@@ -22,21 +22,33 @@ draw = function(){
  drawpancake()
  drawcupcake()
  drawbread()
+ 
+  var x = 0;
+  while(x < 400){
+    text("🌷", x, 390);
+    x += 50;
+  }
+  x = 0;
+  while(x < 400){
+    text("🥐", x, 30);
+    x += 50;
+  }
 };
 
 
 mouseClicked = function(){
 
 }
-
+//bunnypancake
 var yPositions = [10, 10];
 var xPositions = [20, 100];
-
+//bunnycupcake
 var yPositions1 = [100, 100];
 var xPositions1 = [40, 130];
-
+//bunnybread
 var yPositions2 = [170, 170];
 var xPositions2 = [10, 100];
+
 
 var drawpancake = function() {
     for (var i = 0; i < yPositions.length; i++)
@@ -60,5 +72,6 @@ var drawbread = function() {
     } 
 };
   
+ 
     
     
